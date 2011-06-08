@@ -8,6 +8,6 @@ master_doc = 'index'
 
 modindex_common_prefix = ['genshi.']
 
-extensions = ['sphinx.ext.autodoc']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.viewcode']
 
 autodoc_default_flags = ['members']
